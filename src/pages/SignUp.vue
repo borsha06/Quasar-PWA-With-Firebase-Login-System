@@ -120,7 +120,7 @@ export default {
                 }
               }]
           })
-          window.location = '#/posts'
+          window.location = '#/signin'
         })
           .catch(function (error) {
             // Handle Errors here.
