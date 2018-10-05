@@ -44,9 +44,9 @@
     </q-layout-drawer>
 
     <q-page-container>
-      <!--<q-page>-->
-        <!--Welcome to DanceAPP-->
-        <!--</q-page>-->
+      <transition enter-active-class="animated fadeIn" leave-active-class="animated fadeOut" mode="out-in">
+        <router-view />
+      </transition>
       <router-view />
     </q-page-container>
 
