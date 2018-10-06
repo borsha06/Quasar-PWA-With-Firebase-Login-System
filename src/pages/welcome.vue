@@ -2,7 +2,7 @@
   <q-page padding class="">
   <div>
     <!--<calendar />-->
-    <h1>Welcome</h1>
+    <h1>Welcome to the app</h1>
   </div>
   </q-page>
 </template>
