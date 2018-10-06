@@ -47,7 +47,7 @@
         </q-card-main>
         <q-card-separator />
         <q-card-actions align="center">
-          <q-btn color="primary" align="center" label="Log In" v-on:click="submit()"></q-btn>
+          <q-btn color="primary" align="center" label="Sign Up" v-on:click="submit()"></q-btn>
         </q-card-actions>
       </q-card>
     </q-page>
