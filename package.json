@@ -8,14 +8,20 @@
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.vue src",
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "build": "quasar build",
+    "start": "node server.js",
+    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build"
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "connect-history-api-fallback": "^1.5.0",
+    "express": "^4.16.3",
     "firebase": "^5.5.2",
     "layouts": "^3.0.1",
     "pages": "0.0.16",
     "quasar-calendar": "^0.3.1",
+    "serve-static": "^1.13.2",
     "vuelidate": "^0.7.4"
   },
   "devDependencies": {
