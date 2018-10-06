@@ -13,7 +13,7 @@
         label-width= 3
         @blur="$v.form.email.$touch"
         :error="$v.form.email.$error"
-        helper="Enter your registered email address to Log in"
+        helper="Enter your registered email address to Sign Up"
         error-label="Please type a valid email address"
         >
         <q-input

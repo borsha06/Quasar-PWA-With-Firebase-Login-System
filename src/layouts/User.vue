@@ -44,7 +44,6 @@
     </q-layout-drawer>
 
     <q-page-container>
-      </transition>
       <router-view />
     </q-page-container>
 
