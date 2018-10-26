@@ -24,7 +24,6 @@
           @click="onLogout">
           <!--<q-icon left dark>exit_to_app</q-icon>-->
           Logout
-
         </q-btn>
       <!--</v-toolbar-items>-->
     </q-toolbar>
