@@ -1,7 +1,9 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import user from './user'
+import shared from './shared'
 
-import example from './module-example'
+// import example from './module-example'
 
 Vue.use(Vuex)
 
@@ -13,7 +15,9 @@ Vue.use(Vuex)
 export default function (/* { ssrContext } */) {
   const Store = new Vuex.Store({
     modules: {
-      example
+    //  example
+      user: user,
+      shared: shared
     }
   })
 

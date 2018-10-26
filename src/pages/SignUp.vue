@@ -20,6 +20,18 @@
         type="email"
         v-model="form.email"></q-input>
         </q-field>
+          <q-field
+            icon="phone"
+            label="Mobile"
+            label-width= 3
+            :error="$v.form.email.$error"
+            helper="Enter your Mobile number"
+            error-label="Please type a valid mobile address"
+          >
+            <q-input
+              type="text"
+              v-model="form.phone"></q-input>
+          </q-field>
         <q-field
         icon="vpn_key"
         label="Password"
@@ -77,6 +89,7 @@ export default {
     return {
       form: {
         email: '',
+        phone: '',
         password: '',
         retypePassword: ''
       },

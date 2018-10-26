@@ -69,7 +69,8 @@ module.exports = function (ctx) {
         'QCardMain',
         'QRouteTab',
         'QLayoutFooter',
-        'QTabs'
+        'QTabs',
+        'QAlert'
 
       ],
       directives: [

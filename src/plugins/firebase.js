@@ -11,6 +11,7 @@ var config = {
   storageBucket: 'syndicateapp-4e18d.appspot.com',
   messagingSenderId: '1038909489969'
 }
+
 const fireApp = firebase.initializeApp(config)
 export const AUTH = fireApp.auth()
 
