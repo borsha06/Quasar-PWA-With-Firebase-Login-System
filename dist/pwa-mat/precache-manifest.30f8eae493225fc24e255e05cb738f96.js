@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "fonts/KFOlCnqEu92Fr1MmWUlfBBc-.cf6613d.woff"
   },
   {
-    "revision": "bc2ddcc718868e0e058b81ed2071ff1d",
+    "revision": "ba374f59994990041f8810540c84cf64",
     "url": "index.html"
   },
   {
@@ -36,12 +36,12 @@ self.__precacheManifest = [
     "url": "js/vendor.8176062.js"
   },
   {
-    "revision": "3020c8ac2c2872dec7741e5948520093",
-    "url": "statics/quasar-logo.png"
-  },
-  {
     "revision": "ed12d10fd0407eea42ccaf7af7991146",
     "url": "statics/icons/ms-icon-144x144.png"
+  },
+  {
+    "revision": "3020c8ac2c2872dec7741e5948520093",
+    "url": "statics/quasar-logo.png"
   },
   {
     "revision": "a13b2bd5261e2df374128df1aab93001",
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "statics/icons/icon-256x256.png"
   },
   {
-    "revision": "7fd8436784fff81a2fb3",
-    "url": "js/app.1a6e0dd.js"
+    "revision": "98aa1de3443ad847c006",
+    "url": "js/app.b8e277d.js"
   },
   {
     "revision": "8c4120b4e88276badbc808e518572fad",
@@ -108,7 +108,7 @@ self.__precacheManifest = [
     "url": "fonts/KFOkCnqEu92Fr1MmgVxIIzQ.e9dbbe8.woff"
   },
   {
-    "revision": "7fd8436784fff81a2fb3",
-    "url": "css/app.c7ca1bc1.css"
+    "revision": "98aa1de3443ad847c006",
+    "url": "css/app.1e1c2c4c.css"
   }
 ];

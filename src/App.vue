@@ -16,7 +16,6 @@
           :to="item.link">
           <!--<q-icon left dark>{{ item.icon }}</q-icon>-->
           {{ item.title }}
-
         </q-btn>
         <q-btn
           v-if="userIsAuthenticated"
