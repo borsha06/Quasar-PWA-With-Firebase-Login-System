@@ -33,7 +33,7 @@
 <!--}-->
 <template>
   <div class="col-6 q-display-3 text-center">
-    Welcome To Dance APP!
+    The only class payment solution designed for instructors
   </div>
 </template>
 <script>
