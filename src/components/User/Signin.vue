@@ -1,6 +1,9 @@
 <template>
     <!--<img alt="Quasar logo" src="~assets/quasar-logo-full.svg">-->
-    <!--<app-alert @dismissed="onDismissed" :text="error.message"></app-alert>-->
+  <div>
+    <div v-if="error">
+    <app-alert @dismissed="onDismissed"  :text="error.message"></app-alert>
+    </div>
     <q-card>
       <div id="recaptcha-container"></div>
       <q-card-title>
@@ -44,8 +47,24 @@
        </span>
         </q-btn>
       </div>
+      <div class="text-xs-center row justify-center">
+        <q-btn  color="primary" dark :disabled="loading" :loading="loading" @click.prevent="onSigninPhone">Login with Phone
+          <span slot="loader" class="custom-loader">
+        <q-icon light>cached</q-icon>
+       </span>
+        </q-btn>
+      </div>
+      <!--<div class="text-xs-center justify-center">-->
+        <!--<q-btn round color="warning" dark :disabled="loading" :loading="loading" @click.prevent="onResetPassword">Reset Password By Email-->
+          <!--<q-icon right dark>email</q-icon>-->
+          <!--<span slot="loader" class="custom-loader">-->
+                        <!--<q-icon light>cached</q-icon>-->
+                       <!--</span>-->
+        <!--</q-btn>-->
+      <!--</div>-->
       <br>
     </q-card>
+  </div>
 </template>
 
 <script>
@@ -85,10 +104,13 @@ export default {
     onSigninFacebook () {
       this.$store.dispatch('signUserInFacebook')
     },
+    onSigninPhone () {
+      this.$store.dispatch('signUserInPhone')
+    },
 
     onResetPassword () {
       if (this.email === '') {
-        return this.$store.dispatch('setError', {message: 'Email can not be blnak'})
+        return this.$store.dispatch('setError', {message: 'Email can not be blank'})
       }
       this.$store.dispatch('resetPasswordWithEmail', {email: this.email})
     },
