@@ -17,33 +17,6 @@ import AuthGuard from './auth-guard'
 //   }
 // ]
 const routes = [
-  // {
-  //   path: '/',
-  //
-  //   // we use /src/layouts/User component which is imported above
-  //   component: User,
-  //
-  //   // hey, it has children routes and User has <router-view> in it;
-  //   // It is really a Layout then!
-  //   children: [
-  //     // Profile page
-  //     {
-  //       path: 'signup', // here it is, route /user/profile
-  //       component: Signup// we reference /src/pages/SignUp.vue imported above
-  //     },
-  //
-  //     // Posts page
-  //     {
-  //       path: 'signin', // here it is, route /user/posts
-  //       component: Signin // we reference /src/pages/SignIn.vue imported above
-  //     },
-  //     {
-  //       path: 'welcome', // here it is, route /user/posts
-  //       component: Welcome // we reference /src/pages/SignIn.vue imported above
-  //     }
-  //   ]
-  // }
-
   {
     path: '/',
     name: 'Home',

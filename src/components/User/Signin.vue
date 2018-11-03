@@ -47,6 +47,7 @@
        </span>
         </q-btn>
       </div>
+      <br>
       <div class="text-xs-center row justify-center">
         <q-btn  color="primary" dark :disabled="loading" :loading="loading" @click.prevent="onSigninPhone">Login with Phone
           <span slot="loader" class="custom-loader">
@@ -54,14 +55,7 @@
        </span>
         </q-btn>
       </div>
-      <!--<div class="text-xs-center justify-center">-->
-        <!--<q-btn round color="warning" dark :disabled="loading" :loading="loading" @click.prevent="onResetPassword">Reset Password By Email-->
-          <!--<q-icon right dark>email</q-icon>-->
-          <!--<span slot="loader" class="custom-loader">-->
-                        <!--<q-icon light>cached</q-icon>-->
-                       <!--</span>-->
-        <!--</q-btn>-->
-      <!--</div>-->
+
       <br>
     </q-card>
   </div>
