@@ -14,6 +14,7 @@ var config = {
 
 const fireApp = firebase.initializeApp(config)
 export const AUTH = fireApp.auth()
+// var database = firebase.database()
 
 export default ({ app, router, Vue }) => {
   Vue.prototype.$auth = AUTH

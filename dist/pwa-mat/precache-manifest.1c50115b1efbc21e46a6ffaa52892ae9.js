@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "fonts/KFOlCnqEu92Fr1MmEU9fBBc-.de8b743.woff"
   },
   {
-    "revision": "8ce24cefb3052e32122105edc00e0175",
+    "revision": "00e01369b1c587d1f762a3f8fc35d87f",
     "url": "index.html"
   },
   {
@@ -12,56 +12,60 @@ self.__precacheManifest = [
     "url": "js/1.d573e16.js"
   },
   {
-    "revision": "5fec483df678c22b1b05",
-    "url": "js/2.5fec483.js"
+    "revision": "6591818e98ef911ab4ac",
+    "url": "js/2.6591818.js"
   },
   {
     "revision": "32557cf47bb758abb6f5",
     "url": "js/3.32557cf.js"
   },
   {
-    "revision": "77c61eeb9aafcf490033",
-    "url": "js/4.77c61ee.js"
+    "revision": "4080a0f2215c5ca3e12c",
+    "url": "js/4.4080a0f.js"
   },
   {
-    "revision": "9a8ac4dd7022f2c186a6",
-    "url": "js/5.9a8ac4d.js"
+    "revision": "7809d2183fbcd86f9dee",
+    "url": "js/5.7809d21.js"
   },
   {
-    "revision": "30571ff24b3a5b584e97",
-    "url": "js/6.30571ff.js"
+    "revision": "481d1ec610a318a2f10b",
+    "url": "js/6.481d1ec.js"
   },
   {
-    "revision": "49c1f0096e4001e51d69",
-    "url": "js/vendor.49c1f00.js"
+    "revision": "2c4be3592d26c6c65b06",
+    "url": "js/7.2c4be35.js"
+  },
+  {
+    "revision": "10883ece6680905cc5cd",
+    "url": "js/vendor.10883ec.js"
   },
   {
     "revision": "3020c8ac2c2872dec7741e5948520093",
     "url": "statics/quasar-logo.png"
   },
   {
-    "revision": "a13b2bd5261e2df374128df1aab93001",
-    "url": "statics/icons/icon-512x512.png"
-  },
-  {
-    "revision": "ed12d10fd0407eea42ccaf7af7991146",
-    "url": "statics/icons/ms-icon-144x144.png"
+    "revision": "0e4dfee274c54187fd3eeed189a0170d",
+    "url": "statics/no-img.jpg"
   },
   {
     "revision": "66d7719a8ca03c1a591444c013802817",
     "url": "statics/icons/icon-384x384.png"
   },
   {
+    "revision": "a13b2bd5261e2df374128df1aab93001",
+    "url": "statics/icons/icon-512x512.png"
+  },
+  {
     "revision": "20c6420ccf16a07d9d56538e30a6b524",
     "url": "statics/icons/icon-256x256.png"
   },
   {
-    "revision": "8191eaf70f9751ca3d5b",
-    "url": "js/app.0db9648.js"
+    "revision": "1fee6181709646d67b58",
+    "url": "js/app.84bc3a4.js"
   },
   {
-    "revision": "efb00e57304380d857603760600da5d5",
-    "url": "statics/icons/favicon-16x16.png"
+    "revision": "ed12d10fd0407eea42ccaf7af7991146",
+    "url": "statics/icons/ms-icon-144x144.png"
   },
   {
     "revision": "8c4120b4e88276badbc808e518572fad",
@@ -74,6 +78,10 @@ self.__precacheManifest = [
   {
     "revision": "2f9d7587924933c1912c342b190b53ca",
     "url": "statics/icons/favicon-32x32.png"
+  },
+  {
+    "revision": "efb00e57304380d857603760600da5d5",
+    "url": "statics/icons/favicon-16x16.png"
   },
   {
     "revision": "3020c8ac2c2872dec7741e5948520093",
@@ -108,7 +116,7 @@ self.__precacheManifest = [
     "url": "fonts/KFOkCnqEu92Fr1MmgVxIIzQ.e9dbbe8.woff"
   },
   {
-    "revision": "8191eaf70f9751ca3d5b",
+    "revision": "1fee6181709646d67b58",
     "url": "css/app.56074ed2.css"
   }
 ];

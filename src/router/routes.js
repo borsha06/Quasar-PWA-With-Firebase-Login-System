@@ -6,6 +6,7 @@ const Home = () => import('../components/common')
 const Profile = () => import('../components/User/Profile')
 const Signup = () => import('../components/User/Signup')
 const Signin = () => import('../components/User/Signin')
+const MainPage = () => import('../components/User/MainPage')
 import AuthGuard from './auth-guard'
 // const routes = [
 //   {
@@ -37,6 +38,11 @@ const routes = [
     path: '/signin',
     name: 'Signin',
     component: Signin
+  },
+  {
+    path: '/Main',
+    name: 'MainPage',
+    component: MainPage
   }]
 
 // Always leave this as last one

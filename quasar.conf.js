@@ -70,7 +70,8 @@ module.exports = function (ctx) {
         'QRouteTab',
         'QLayoutFooter',
         'QTabs',
-        'QAlert'
+        'QAlert',
+        'QSelect'
 
       ],
       directives: [
