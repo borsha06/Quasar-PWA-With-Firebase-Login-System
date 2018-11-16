@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.1c50115b1efbc21e46a6ffaa52892ae9.js"
+  "precache-manifest.2936abe356779d1d7592648f2e20323f.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "syndicate"});

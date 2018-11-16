@@ -12,7 +12,6 @@
     "build-mat-pwa": "quasar build -t mat -m pwa -c",
     "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build",
     "start": "node server.js"
-
   },
   "dependencies": {
     "axios": "^0.18.0",
