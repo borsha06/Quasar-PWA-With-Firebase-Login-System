@@ -31,16 +31,16 @@ export default {
   data () {
     return {
       previewImage: '',
-      select: 'ch',
+      select: 'Choreographer',
       model: '',
       selectOptions: [
         {
           label: 'Choreographer',
-          value: 'choreographer'
+          value: 'Choreographer'
         },
         {
           label: 'Instructor',
-          value: 'in'
+          value: 'Instructor'
         }
       ]
     }
